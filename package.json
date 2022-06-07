@@ -1,0 +1,23 @@
+{
+  "name": "e-commerce-app",
+  "version": "1.0.0",
+  "description": "MERN shopping cart app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DPascuttini/MERN-eCommerce-app.git"
+  },
+  "author": "Dominik Pascuttini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DPascuttini/MERN-eCommerce-app/issues"
+  },
+  "homepage": "https://github.com/DPascuttini/MERN-eCommerce-app#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
