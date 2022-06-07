@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "MERN shopping cart app",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/server",
@@ -21,7 +22,10 @@
   },
   "homepage": "https://github.com/DPascuttini/MERN-eCommerce-app#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6"
   },
   "devDependencies": {
     "concurrently": "^7.2.1",
