@@ -35,7 +35,7 @@ npm run server
 ```
 
 ## Personal input
-It is a more serious project than the ones I did so far, and which I have had a fun time working on. 
+It is a more serious project than the ones I did so far, and which I am having a fun time working on. 
 One of the things I enjoyed about it was the fact that the course itself is outdated in some aspects which made me put extra effort into researching and familiarizing with the technologies and ways to update the project itself. It showed me more from both front-end and back-end and taught me differences and usages of different packets. 
 
 ### Source links 
