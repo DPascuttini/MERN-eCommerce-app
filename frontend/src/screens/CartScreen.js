@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link, useParams, useNavigate } from 'react-router-dom';
+import { Link, useParams, useNavigate, useLocation } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   Row,
@@ -13,9 +13,10 @@ import {
 import Message from '../components/Message';
 import { addToCart, removeFromCart } from '../actions/cartActions';
 
-const CartScreen = (location) => {
+const CartScreen = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+  const location = useLocation();
 
   const productId = id;
   const qty = location.search ? Number(location.search.split('=')[1]) : 1;
