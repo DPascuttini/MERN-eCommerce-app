@@ -71,6 +71,18 @@ const products = [
     rating: 4,
     numReviews: 12,
   },
+  {
+    name: 'PlayStation 5 Sony Disc Edition White',
+    image: '/images/playstation5.jpg',
+    description:
+      'The PS5 is a powerful and well-designed console that offers a compelling next-gen gaming experience. Its library of exclusive games continues to be a showcase for the PS5’s marvelous DualSense controller, spatial 3D audio tech, and super-fast SSD, and it’s the reason why so many gamers will covet Sony’s new PlayStation console.',
+    brand: 'Sony',
+    category: 'Electronics',
+    price: 499.99,
+    countInStock: 20,
+    rating: 4.5,
+    numReviews: 17,
+  },
 ];
 
 export default products;
